@@ -1,0 +1,46 @@
+CLUSTAL W (1.83) multiple sequence alignment
+
+bioinfo         --------------------------------------------------------NIRVIARVRPVT-KEDGEGPE-AT
+1BG2A           D---------------------------------------------------LAECNIKVMCRFRPLNESEVNRGDKYIA
+2KINB           --------------------------------------------------------------------------------
+1N6MB           MHAALSTEVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCC-TW
+1I6IA           ------------------------------------------------------GASVKVAVRVRPFNSREMSRDSKCII
+                                                                                                
+
+bioinfo         NAVTFDADDDSIIHLL------HK--GKPVSFELDKVFSP--------QASQQDVFQEV-QALVTSCIDGFNVCIFAYGQ
+1BG2A           K--F--QGEDTVVIA-----------SK--PYAFDRVFQS--------STSQEQVYNDCAKKIVKDVLEGYNGTIFAYGQ
+2KINB           --------------------------------------------------------------------------------
+1N6MB           T--Y--HDESTVELQSIDAQAKSKMGQQ--IFSFDQVFHP--------LSSQSDIFEMV-SPLIQSALDGYNICIFAYGQ
+1I6IA           Q--M---SGSTTTIVNPK---QPKETPK--SFSFDYSYWSHTSPEDINYASQKQVYRDIGEEMLQHAFEGYNVCIFAYGQ
+                                                                                                
+
+bioinfo         TGAGKTYTMEGT-A--ENPGINQRALQLLFSEVQEKAS-DWEYTITVSAAEIYNEVLRDLL-GKEPQE-KLEIRLCPDGS
+1BG2A           TSSGKTHTMEGKLHDPEGMGIIPRIVQDIFNYIYSMDE-NLEFHIKVSYFEIYLDKIRDLLDVSK--T-NLSVH--EDKN
+2KINB           --------------------------------------------------------------------------------
+1N6MB           TGSGKTYTMDGV-P--ESVGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLSNE----------------
+1I6IA           TGAGKSYTMMGK-QEKDQQGIIPQLCEDLFSRINDTTNDNMSYSVEVSYMEIYCERVRDLLNPK--NKGNLRVR--EHPL
+                                                                                                
+
+bioinfo         GQLYVPGLTEFQVQSVDDINKVFEFGHTNRTTEFTNLNEHSSRSHALLIVTVRGVDCS----TGLRTTGKLNLVDLAGSE
+1BG2A           RVPYVKGCTERFVCSPDEVMDTIDEGKSNRHVAVTNMNEHSSRSHSIFLINVKQENTQ----TEQKLSGKLYLVDLAGSE
+2KINB           --------------------------------------------------------------------------------
+1N6MB           --------TEETVLDPNHLRHLMHTAKMNRATA----STASSRSHAVTKLELIGRH-------AEISVGSINLVDLAGSE
+1I6IA           LGPYVEDLSKLAVTSYNDIQDLMDSGNKARTVAATNMNETSSRSHAVFNIIFTQKRHDAETNITTEKVSKISLVDLAGSE
+                                                                                                
+
+bioinfo         ----------------RVGSRLREAQHINKSLSALGDVIAALRSRQG-HVPFRNSKLTYLLQDSLSGDSKTLMVVQVSPV
+1BG2A           KVSKTGAEGAVLDEAKN----------INKSLSALGNVISALAEGST-YVPYRDSKMTRILQDSLGGNCRTTIVICCSPS
+2KINB           --------------AKN----------INKSLSALGNVISALAEGTKTHVPYRDSKMTRILQDSLDGNCRTTIVICCSPS
+1N6MB           SP--------------N----------IKRSLSELTNVILALLQK-----QYRNSKLTHLLMPSLGGNSKTLMFINVSPF
+1I6IA           A---------------N----------INKSLTTLGKVISALAEMD-F-IPYRDSVLTWLLRENLGGNSRTAMVAALSPA
+                                .          *::**: * .** ** .       :*:* :* :*  .*.*:.:* :.   ** 
+
+bioinfo         EKNTSETLY-SLKFAERVR--------------------------
+1BG2A           SYNESET-KSTLLFGQRAKTI------------------------
+2KINB           VFNEAET-KSTLMFGQRAKTIKNTVSVNLELTAEEWKKKYEKEKE
+1N6MB           QDCFQES-VKSLRFAASVN--------------------------
+1I6IA           DINYDET-LSTLRYADRAKQIRNTVHHHHH---------------
+                     *:   :* :.  ..                          
+
+
+

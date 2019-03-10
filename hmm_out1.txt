@@ -1,0 +1,460 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/cs487/boen/bioinfo.hmm
+# target sequence database:        frlib
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       bioinfo  [M=312]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   3.4e-151  502.4   2.7   3.9e-151  502.2   2.7    1.0  1  1MKJA     
+   2.4e-150  499.6   2.4   2.7e-150  499.4   2.4    1.0  1  1BG2A     
+   1.4e-146  487.2   1.1   1.6e-146  487.0   1.1    1.0  1  1I6IA     
+   5.2e-142  472.2   0.1   6.6e-142  471.8   0.1    1.1  1  1N6MA     
+     3e-135  450.0   0.5     9e-135  448.4   0.5    1.6  1  1N6MB     
+   3.2e-115  384.2   0.7     4e-115  383.9   0.7    1.0  1  1GOJA     
+    4.2e-98  328.0   3.6    4.8e-98  327.8   3.6    1.0  1  1SDMA     
+    2.6e-95  318.8   0.1    2.9e-95  318.6   0.1    1.0  1  2KINA     
+    3.6e-94  315.1   0.2    4.1e-94  314.9   0.2    1.0  1  1Q0BA     
+    2.4e-92  309.1   0.7    2.7e-92  308.9   0.7    1.0  1  1T5CA     
+      3e-88  295.6   2.3    3.4e-88  295.4   2.3    1.0  1  1F9WA     
+    6.3e-86  288.0   6.2    9.8e-86  287.3   6.2    1.3  1  1F9VA     
+    7.7e-63  212.1   0.1    9.3e-63  211.9   0.1    1.0  1  1V8KA     
+    1.6e-61  207.8   2.3    1.9e-61  207.6   2.3    1.0  1  1RY6A     
+    1.8e-39  135.3   0.1    2.1e-39  135.2   0.1    1.0  1  2KINB     
+    2.7e-37  128.2   0.1    3.5e-37  127.9   0.1    1.1  1  3KINB     
+  ------ inclusion threshold ------
+       0.12   11.1   0.0       0.17   10.6   0.0    1.1  1  1TU7A     
+
+
+Domain annotation for each sequence (and alignments):
+>> 1MKJA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  502.2   2.7  5.2e-154  3.9e-151       2     312 .]       3     312 ..       2     312 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 502.2 bits;  conditional E-value: 5.2e-154
+  bioinfo   2 dleanikvlvrvrPlnekeenrgsk.iikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytmeG 101
+              ++e+nikv++r+rPlne+e+nrg+k i+k+++edtvv++        sk+++fd+vf+s++sq++v++d+ +++v+++l+Gyn +ifayGqt++Gkt+tmeG
+    1MKJA   3 LAECNIKVMCRFRPLNESEVNRGDKyIAKFQGEDTVVIA--------SKPYAFDRVFQSSTSQEQVYNDCaKKIVKDVLEGYNGTIFAYGQTSSGKTHTMEG 96 
+              579**********************999**********9........48***************************************************** PP
+
+  bioinfo 102 k.a..esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk.knlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnln 199
+              k +  e++Giipr+v+++f++i+++++ nle++ikvsy+eiy++++rdLLd++ +nl+v+edk+r++yv+g+te++v+s+d+++d++degk+nr+vavtn+n
+    1MKJA  97 KlHdpEGMGIIPRIVQDIFNYIYSMDE-NLEFHIKVSYFEIYLDKIRDLLDVSkTNLSVHEDKNRVPYVKGCTERFVCSPDEVMDTIDEGKSNRHVAVTNMN 197
+              *6467**********************.************************967*********************************************** PP
+
+  bioinfo 200 eassrshavlkielkgketdiaekkvgklnLvdLaGsesv..ninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtliviavsPseknesEt 299
+              e+ssrsh+++ i++k+++t++++k +gkl+LvdLaGse+v  ninksLsaLgnvisALae++++vpyRdsk+tr+LqdsLgGn+rt+ivi++sPs++nesEt
+    1MKJA 198 EHSSRSHSIFLINVKQENTQTEQKLSGKLYLVDLAGSEKVakNINKSLSALGNVISALAEGSTYVPYRDSKMTRILQDSLGGNCRTTIVICCSPSSYNESET 299
+              **************************************98889*********************************************************** PP
+
+  bioinfo 300 kstLrfaerakti 312
+              kstL f++rakti
+    1MKJA 300 KSTLLFGQRAKTI 312
+              ***********98 PP
+
+>> 1BG2A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  499.4   2.4  3.5e-153  2.7e-150       2     312 .]       2     323 .]       1     323 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 499.4 bits;  conditional E-value: 3.5e-153
+  bioinfo   2 dleanikvlvrvrPlnekeenrgsk.iikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytmeG 101
+              ++e+nikv++r+rPlne+e+nrg+k i+k+++edtvv++        sk+++fd+vf+s++sq++v++d+ +++v+++l+Gyn +ifayGqt++Gkt+tmeG
+    1BG2A   2 LAECNIKVMCRFRPLNESEVNRGDKyIAKFQGEDTVVIA--------SKPYAFDRVFQSSTSQEQVYNDCaKKIVKDVLEGYNGTIFAYGQTSSGKTHTMEG 95 
+              579**********************999**********9........48***************************************************** PP
+
+  bioinfo 102 k.a..esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk.knlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnln 199
+              k +  e++Giipr+v+++f++i+++++ nle++ikvsy+eiy++++rdLLd++ +nl+v+edk+r++yv+g+te++v+s+d+++d++degk+nr+vavtn+n
+    1BG2A  96 KlHdpEGMGIIPRIVQDIFNYIYSMDE-NLEFHIKVSYFEIYLDKIRDLLDVSkTNLSVHEDKNRVPYVKGCTERFVCSPDEVMDTIDEGKSNRHVAVTNMN 196
+              *6467**********************.************************967*********************************************** PP
+
+  bioinfo 200 eassrshavlkielkgketdiaekkvgklnLvdLaGsesv..............ninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtlivi 287
+              e+ssrsh+++ i++k+++t++++k +gkl+LvdLaGse+v              ninksLsaLgnvisALae++++vpyRdsk+tr+LqdsLgGn+rt+ivi
+    1BG2A 197 EHSSRSHSIFLINVKQENTQTEQKLSGKLYLVDLAGSEKVsktgaegavldeakNINKSLSALGNVISALAEGSTYVPYRDSKMTRILQDSLGGNCRTTIVI 298
+              ****************************************999999999999999*********************************************** PP
+
+  bioinfo 288 avsPseknesEtkstLrfaerakti 312
+              ++sPs++nesEtkstL f++rakti
+    1BG2A 299 CCSPSSYNESETKSTLLFGQRAKTI 323
+              ***********************98 PP
+
+>> 1I6IA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  487.0   1.1  2.1e-149  1.6e-146       5     312 .]       2     324 ..       1     324 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 487.0 bits;  conditional E-value: 2.1e-149
+  bioinfo   5 anikvlvrvrPlnekeenrgsk.iikladedtvvllsidkskegsksfsfdkvfss........lasqkdvfedv.eelvqsaldGynvcifayGqtgaGkt 96 
+              a++kv+vrvrP+n++e++r+sk ii++ +++t+++++++++ke++ksfsfd++++s        +asqk+v++d+ ee++q+a++GynvcifayGqtgaGk+
+    1I6IA   2 ASVKVAVRVRPFNSREMSRDSKcIIQM-SGSTTTIVNPKQPKETPKSFSFDYSYWShtspedinYASQKQVYRDIgEEMLQHAFEGYNVCIFAYGQTGAGKS 102
+              79*******************978888.99************************************************************************ PP
+
+  bioinfo  97 ytmeGka..esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk.k.nlevredksrqlyveglteeavlsvddirdlldegkknrtva 194
+              ytm+Gk+  +++Giip+l+e+lfs+i++++n+n++y+++vsy+eiy+e++rdLL++k k nl+vre++++++yve+l+++av+s++di+dl+d+g+k+rtva
+    1I6IA 103 YTMMGKQekDQQGIIPQLCEDLFSRINDTTNDNMSYSVEVSYMEIYCERVRDLLNPKnKgNLRVREHPLLGPYVEDLSKLAVTSYNDIQDLMDSGNKARTVA 204
+              ******8779**********************************************9756****************************************** PP
+
+  bioinfo 195 vtnlneassrshavlkielkgketd....iaekkvgklnLvdLaGsesvninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtliviavsPs 292
+              +tn+ne+ssrshav++i++++k++d    i+++kv+k++LvdLaGse+ ninksL++Lg+visALae+d+ +pyRds+lt+lL+++LgGnsrt++v+a+sP+
+    1I6IA 205 ATNMNETSSRSHAVFNIIFTQKRHDaetnITTEKVSKISLVDLAGSEA-NINKSLTTLGKVISALAEMDF-IPYRDSVLTWLLRENLGGNSRTAMVAALSPA 304
+              ***********************998888999***************7.*******************76.******************************* PP
+
+  bioinfo 293 eknesEtkstLrfaerakti 312
+              ++n++Et+stLr+a+rak+i
+    1I6IA 305 DINYDETLSTLRYADRAKQI 324
+              ******************98 PP
+
+>> 1N6MA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  471.8   0.1  8.8e-145  6.6e-142       1     310 [.      52     359 ..      52     361 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 471.8 bits;  conditional E-value: 8.8e-145
+  bioinfo   1 ddleanikvlvrvrPlnekeenrgskiikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedveelvqsaldGynvcifayGqtgaGktytmeGk 102
+              +dl++ni+v++r+rP++e+eenr++++++++de+tv+l+sid  ++g+++fsfd+vf++l+sq+d+fe+v++l+qsaldGyn+cifayGqtg+Gktytm+G+
+    1N6MA  52 MDLRGNIRVFCRIRPPLESEENRMCCTWTYHDESTVELQSIDA-QMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGV 152
+              689************************************9885.57******************************************************** PP
+
+  bioinfo 103 aesvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk.knlevr..edksrqlyveglteeavlsvddirdlldegkknrtvavtnlnea 201
+              +esvG+ipr+v+llf++ir+++nl++eyeik+++leiynevl+dLL+n+ k++e+r  +++++  yv ++tee+vl+++++r+l++++k+nr         a
+    1N6MA 153 PESVGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLSNEqKDMEIRmaKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNR---------A 245
+              *************************************************8799999656777889***********************9998.........4 PP
+
+  bioinfo 202 ssrshavlkielkgketdiaekkvgklnLvdLaGsesv.....ninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtliviavsPseknesE 298
+              ssrshav+k+el+g++++ +e++vg++nLvdLaGses+     ni++sLs+L+nvi+AL++k+ h+pyR+sklt+lL++sLgGns+tl++i+vsP++++++E
+    1N6MA 246 SSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSESPktetkNIKRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQE 347
+              89***********************************9888888********************************************************** PP
+
+  bioinfo 299 tkstLrfaerak 310
+              ++++Lrfa++++
+    1N6MA 348 SVKSLRFAASVN 359
+              **********98 PP
+
+>> 1N6MB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  448.4   0.5  1.2e-137    9e-135       1     310 [.      52     335 .]      52     335 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 448.4 bits;  conditional E-value: 1.2e-137
+  bioinfo   1 ddleanikvlvrvrPlnekeenrgskiikladedtvvllsid...kskegsksfsfdkvfsslasqkdvfedveelvqsaldGynvcifayGqtgaGktytm 99 
+              +dl++ni+v++r+rP++e+eenr++++++++de+tv+l+sid   ksk+g+++fsfd+vf++l+sq+d+fe+v++l+qsaldGyn+cifayGqtg+Gktytm
+    1N6MB  52 MDLRGNIRVFCRIRPPLESEENRMCCTWTYHDESTVELQSIDaqaKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTM 153
+              689**************************************99999******************************************************** PP
+
+  bioinfo 100 eGkaesvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnkknlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnlnea 201
+              +G++esvG+ipr+v+llf++ir+++nl++eyeik+++leiynevl+dLL+n+                  tee+vl+++++r+l++++k+nr++a    ++a
+    1N6MB 154 DGVPESVGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLSNE------------------TEETVLDPNHLRHLMHTAKMNRATA----STA 233
+              *************************************************999..................9************************....9** PP
+
+  bioinfo 202 ssrshavlkielkgketdiaekkvgklnLvdLaGsesvninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtliviavsPseknesEtkstL 303
+              ssrshav+k+el+g++   ae++vg++nLvdLaGses+ni++sLs+L+nvi+AL++k    +yR+sklt+lL++sLgGns+tl++i+vsP++++++E++++L
+    1N6MB 234 SSRSHAVTKLELIGRH---AEISVGSINLVDLAGSESPNIKRSLSELTNVILALLQK----QYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSL 328
+              ****************...999***********************************....9**************************************** PP
+
+  bioinfo 304 rfaerak 310
+              rfa++++
+    1N6MB 329 RFAASVN 335
+              ****996 PP
+
+>> 1GOJA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  383.9   0.7  5.3e-118    4e-115       5     312 .]       5     329 ..       2     329 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 383.9 bits;  conditional E-value: 5.3e-118
+  bioinfo   5 anikvlvrvrPlnekeenrgsk.iikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytmeGka. 103
+               +ikv++r+rP n  e + g + i+++++ dt ++     ske++ sf+fd+vf  ++ q+d+f+   ++ v ++l+Gyn ++fayGqtgaGk+ytm+G++ 
+    1GOJA   5 NSIKVVARFRPQNRVEIESGGQpIVTFQGPDTCTVD----SKEAQGSFTFDRVFDMSCKQSDIFDFSiKPTVDDILNGYNGTVFAYGQTGAGKSYTMMGTSi 102
+              58**************9999888**********999....5999********************9544********************************77 PP
+
+  bioinfo 104 ...esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk.knlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnlnea 201
+                 ++ G+ipr+ve++f +i + a  n+ey+++vsy+eiy+e++rdLL ++ +nl v+e+k+r++yv+gl e  v sv+++ +++  g ++r+va+tn+n++
+    1GOJA 103 ddpDGRGVIPRIVEQIFTSILSSAA-NIEYTVRVSYMEIYMERIRDLLAPQnDNLPVHEEKNRGVYVKGLLEIYVSSVQEVYEVMRRGGNARAVAATNMNQE 203
+              77899*****************999.***********************9977************************************************* PP
+
+  bioinfo 202 ssrshavlkielkgketdiaekkvgklnLvdLaGsesv..............ninksLsaLgnvisALaekdk.hvpyRdskltrlLqdsLgGnsrtlivia 288
+              ssrsh+++ i++++k++++++ k+g+l LvdLaGse+v              +inksLsaLg vi AL +++  hvpyRdskltr+Lq+sLgGnsrt+++i+
+    1GOJA 204 SSRSHSIFVITITQKNVETGSAKSGQLFLVDLAGSEKVgktgasgqtleeakKINKSLSALGMVINALTDGKSsHVPYRDSKLTRILQESLGGNSRTTLIIN 305
+              **************************************888888877777777*****************9878**************************** PP
+
+  bioinfo 289 vsPseknesEtkstLrfaerakti 312
+              +sPs++n +Et+stLrf+ rak+i
+    1GOJA 306 CSPSSYNDAETLSTLRFGMRAKSI 329
+              *********************976 PP
+
+>> 1SDMA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  327.8   3.6  6.3e-101   4.8e-98       7     312 .]       2     313 ..       1     313 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 327.8 bits;  conditional E-value: 6.3e-101
+  bioinfo   7 ikvlvrvrPlnekeenrgsk.iikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedveelvqsaldGynvcifayGqtgaGktytmeGkaesvG 107
+              i+v +r+rPl eke   +++ +i+  de tv++l  +++k   k++ +d+vf  +a+q+dvfed + lvqsa+dGynvcifayGqtg+Gkt+t+ G + ++G
+    1SDMA   2 IRVYCRLRPLCEKEIIAKERnAIRSVDEFTVEHLW-KDDK--AKQHMYDRVFDGNATQDDVFEDTKYLVQSAVDGYNVCIFAYGQTGSGKTFTIYGADSNPG 100
+              9*************876666599999*******96.5566..789999****************************************************** PP
+
+  bioinfo 108 iiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk..k..nlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnlneassrs 205
+              + pr++ +lf  +++ +n ++++++k+ ++e+y++ l dLL +k  k  +l++++d+++ + ve++t   +  +++++ +++ g ++r++  t +ne+ssrs
+    1SDMA 101 LTPRAMSELFRIMKKDSN-KFSFSLKAYMVELYQDTLVDLLLPKqaKrlKLDIKKDSKGMVSVENVTVVSISTYEELKTIIQRGSEQRHTTGTLMNEQSSRS 201
+              **********87776666.**********************9887734689999************************************************ PP
+
+  bioinfo 206 havlkielkgketdiaekkvgklnLvdLaGsesvn.....inksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtliviavsPseknesEtkst 302
+              h ++ ++++  + +++ +  gkl++vdLaGse+v+     inksLsaLg+visAL ++++h+pyR+ klt l+ dsLgGn++tl+++++sP+e n +Et ++
+    1SDMA 202 HLIVSVIIESTNLQTQAIARGKLSFVDLAGSERVKkeaqsINKSLSALGDVISALSSGNQHIPYRNHKLTMLMSDSLGGNAKTLMFVNISPAESNLDETHNS 303
+              ********************************99555666************************************************************** PP
+
+  bioinfo 303 Lrfaerakti 312
+              L +a r+++i
+    1SDMA 304 LTYASRVRSI 313
+              *******976 PP
+
+>> 2KINA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  318.6   0.1   3.8e-98   2.9e-95       3     238 ..       4     237 ..       2     238 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 318.6 bits;  conditional E-value: 3.8e-98
+  bioinfo   3 leanikvlvrvrPlnekeenrgsk.iikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytmeGk 102
+              +e++ikv++r+rPlne e  rg+k i k+++e+tvv+ +       +k++ fd+v  ++++q++v++ + +++v+++l+Gyn +ifayGqt++Gkt+tmeGk
+    2KINA   4 AECSIKVMCRFRPLNEAEILRGDKfIPKFKGEETVVIGQ-------GKPYVFDRVLPPNTTQEQVYNACaKQIVKDVLEGYNGTIFAYGQTSSGKTHTMEGK 98 
+              68**********************8999*********95.......88*********************9******************************** PP
+
+  bioinfo 103 .a..esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk.knlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnlne 200
+               +  + +Giipr+ +++f++i+++++ nle++ikvsy+eiy++++rdLLd++ +nl v+edk+r++yv+g+te++v s+++++d++degk nr+vavtn+ne
+    2KINA  99 lHdpQLMGIIPRIAHDIFDHIYSMDE-NLEFHIKVSYFEIYLDKIRDLLDVSkTNLAVHEDKNRVPYVKGCTERFVSSPEEVMDVIDEGKANRHVAVTNMNE 199
+              6456789*******************.************************967************************************************ PP
+
+  bioinfo 201 assrshavlkielkgketdiaekkvgklnLvdLaGses 238
+              +ssrsh+++ i++k++++++++k +gkl+LvdLaGse+
+    2KINA 200 HSSRSHSIFLINIKQENVETEKKLSGKLYLVDLAGSEK 237
+              *************************************8 PP
+
+>> 1Q0BA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  314.9   0.2   5.4e-97   4.1e-94       5     312 .]       2     328 ..       1     328 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 314.9 bits;  conditional E-value: 5.4e-97
+  bioinfo   5 anikvlvrvrPlnekeenrgsk.iikl...adedtvvllsidkskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytmeG 101
+               ni+v+vr rP+n  e + +++ i+++   ++e +v       +k + k+++fd vf +++ q dv++ v  +++ +++ Gyn +ifayGqtg+Gkt+tmeG
+    1Q0BA   2 KNIQVVVRCRPFNLAERKASAHsIVECdpvRKEVSVRTGG-LADKSSRKTYTFDMVFGASTKQIDVYRSVvCPILDEVIMGYNCTIFAYGQTGTGKTFTMEG 102
+              59***********999888877677753225555555543.367889**********************999****************************** PP
+
+  bioinfo 102 ka.........es..vGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk....knlevredk..srqlyveglteeavlsvddirdllde 186
+               +         e+   Giipr+++++f+++++    + e+++kvs leiyne l dLL+++    ++l++ +d+  +r++ ++gl e +v + d++ ++l++
+    1Q0BA 103 ERspneeytweEDplAGIIPRTLHQIFEKLTDN---GTEFSVKVSLLEIYNEELFDLLNPSsdvsERLQMFDDPrnKRGVIIKGLEEITVHNKDEVYQILEK 201
+              9667766666422346************99765...56*********************98776668888866511678899******************** PP
+
+  bioinfo 187 gkknrtvavtnlneassrshavlkielkgketd...iaekkvgklnLvdLaGsesvninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtli 285
+              g   rt+a+t +n  ssrsh+v+ ++++ ket     +  k+gklnLvdLaGse  nin+sL +Lg vi+AL e++ hvpyR+skltr+LqdsLgG +rt i
+    1Q0BA 202 GAAKRTTAATLMNAYSSRSHSVFSVTIHMKETTidgEELVKIGKLNLVDLAGSE--NINQSLLTLGRVITALVERTPHVPYRESKLTRILQDSLGGRTRTSI 301
+              ****************************99998333456689************..9********************************************* PP
+
+  bioinfo 286 viavsPseknesEtkstLrfaerakti 312
+              ++++sP++ n +Et+stL +a+rak+i
+    1Q0BA 302 IATISPASLNLEETLSTLEYAHRAKNI 328
+              *************************87 PP
+
+>> 1T5CA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  308.9   0.7   3.6e-95   2.7e-92       5     310 ..       2     310 ..       1     312 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 308.9 bits;  conditional E-value: 3.6e-95
+  bioinfo   5 anikvlvrvrPlnekeenrgskiikl.adedtvvllsidkskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytmeGkae 104
+              + + v vrvrPln++ee+ g+++  + + ++ v+++       gsksf+fd+vf+ + + k+v+e++  +++ sa++Gyn +ifayGqt++Gktytm+G ++
+    1T5CA   2 GAVAVCVRVRPLNSREESLGETAQVYwKTDNNVIYQV-----DGSKSFNFDRVFHGNETTKNVYEEIaAPIIDSAIQGYNGTIFAYGQTASGKTYTMMGSED 98 
+              6899**************9999666536677777764.....5788*********************99********************************* PP
+
+  bioinfo 105 svGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnk...knlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnlneass 203
+              + G+ipr+++++f++i++  +   e+ ++vsy+eiyne + dLL +    k l +red +r++yv +ltee v   +   + + +g+k+r+   t +n+ ss
+    1T5CA  99 HLGVIPRAIHDIFQKIKKFPD--REFLLRVSYMEIYNETITDLLCGTqkmKPLIIREDVNRNVYVADLTEEVVYTSEMALKWITKGEKSRHYGETKMNQRSS 198
+              *****************9987..9********************8775456799************************************************ PP
+
+  bioinfo 204 rshavlkielkgketdiaekkvgklnLvdLaGsesv.......ninksLsaLgnvisALaekdk..hvpyRdskltrlLqdsLgGnsrtliviavsPsekne 296
+              rsh++++++l+ +e   ++ kv++lnLvdLaGse++       nin+sL  Lg+vi  L +++   +++yRdskltr+Lq+sLgGn++t i+ ++ P++  +
+    1T5CA 199 RSHTIFRMILESRE--KGSVKVSHLNLVDLAGSERAarlkegcNINRSLFILGQVIKKLSDGQVggFINYRDSKLTRILQNSLGGNAKTRIICTITPVS--F 296
+              **********9999..7999**************9989999999*****************99888*******************************97..6 PP
+
+  bioinfo 297 sEtkstLrfaerak 310
+              +Et+ +L+fa  ak
+    1T5CA 297 DETLTALQFASTAK 310
+              89999******998 PP
+
+>> 1F9WA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  295.4   2.3   4.5e-91   3.4e-88       5     310 ..       1     299 [.       1     300 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 295.4 bits;  conditional E-value: 4.5e-91
+  bioinfo   5 anikvlvrvrPlnek.eenrgskiikladedtvvllsidkskegsksfsfdkvfsslasqkdvfedveelvqsaldGynvcifayGqtgaGktytmeGkaes 105
+              +ni+v +r+rP +++ e++   ++ +++d++ v+ ++     ++ + f+fdk+f  + +  dvf++v +lvqs ldGynvcifayGqtg+Gkt+tm   + +
+    1F9WA   1 GNIRVYCRIRPALKNlEDTSLINVNEFDDNSGVQSME-----VTVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTML--NPG 95 
+              69*********98652555555577788888888775.....67888*************************************************7..567 PP
+
+  bioinfo 106 vGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnkknlevr.edksrqlyveglteeavlsvddirdlldegkknrtvavtnlneassrsh 206
+               Giip ++  +f+ i++ + ++++y+++  ++eiyne + dLL  k   e+r ++++++  + ++t  +  s + ++ +l++++k r++       +ssrsh
+    1F9WA  96 DGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRLK--HEIRhDQETKTTTITNVTSCKLESEEMVEIILKKANKLRST-------HSSRSH 188
+              8******************************************777..67773556677899*********************999976.......5***** PP
+
+  bioinfo 207 avlkielkgketdiaekkvgklnLvdLaGsesv....ninksLsaLgnvisALaekdk...hvpyRdskltrlLqdsLgGnsrtliviavsPseknesEtks 301
+              ++++i+l g +++++ ++ g lnLvdLaGs +     ninksLs Lg+vi AL + d    h+p+R+sklt+lLq sL G+s+tl+++++sPs+   +Et++
+    1F9WA 189 SIFIIHLSGSNAKTGAHSYGTLNLVDLAGSARLretqNINKSLSCLGDVIHALGQPDStkrHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLN 290
+              ******************************65544559***************98653346***************************************** PP
+
+  bioinfo 302 tLrfaerak 310
+              +Lrfa +++
+    1F9WA 291 SLRFASKVN 299
+              ******997 PP
+
+>> 1F9VA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  287.3   6.2   1.3e-88   9.8e-86       5     310 ..       1     308 [.       1     310 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 287.3 bits;  conditional E-value: 1.3e-88
+  bioinfo   5 anikvlvrvrPlnekeenrgskiik...ladedtvvllsidkskegsk..sfsfdkvfsslasqkdvfedveelvqsaldGynvcifayGqtgaGktytmeG 101
+              +ni+v +r+rP +++ en ++  i+   ++d++ v+ +++ k +++ +   f+fdk+f  + +  dvf++v +lvqs ldGynvcifayGqtg+Gkt+tm  
+    1F9VA   1 GNIRVYCRIRPALKNLENSDTSLINvneFDDNSGVQSMEVTKIQNTAQvhEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTML- 101
+              69**********9998888888665334689999999999988888876689************************************************7. PP
+
+  bioinfo 102 kaesvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnkknlevredk.srqlyveglteeavlsvddirdlldegkknrtvavtnlneas 202
+               + + Giip ++  +f+ i++ + ++++y+++  ++eiyne + dLL +    e+r+d+ +++  + ++t  +  s + ++ +l++            ne+s
+    1F9VA 102 -NPGDGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRK---HEIRHDQeTKTTTITNVTSCKLESEEMVEIILKK-----------ANEHS 188
+              .5678******************************************54...5898665155667777777777777766666654...........389** PP
+
+  bioinfo 203 srshavlkielkgketdiaekkvgklnLvdLaGsesv..............ninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtliviavs 290
+              s sh++++i+l g +   + ++ g lnLvdLaGse++              ninksLs Lg+vi AL + d h+p+R+sklt+lLq sL G+s+tl+++++s
+    1F9VA 189 SASHSIFIIHLSGSN--AGAHSYGTLNLVDLAGSERInvsqvvgdrlretqNINKSLSCLGDVIHALGQPDRHIPFRNSKLTYLLQYSLTGDSKTLMFVNIS 288
+              *************99..8999**************99666666666666666************************************************** PP
+
+  bioinfo 291 PseknesEtkstLrfaerak 310
+              Ps+   +Et+++Lrfa +++
+    1F9VA 289 PSSSHINETLNSLRFASKVN 308
+              *****************998 PP
+
+>> 1V8KA  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  211.9   0.1   1.2e-65   9.3e-63       6     311 ..      31     330 ..      27     331 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 211.9 bits;  conditional E-value: 1.2e-65
+  bioinfo   6 nikvlvrvrPlnekeenrgsk.iikladedtvvllsid.....kskegsksfsfdkvfsslasqkdvfedv.eelvqsaldGynvcifayGqtgaGktytme 100
+               i v vr rPln++e ++++  +i + ++  + + +++      +   +++f fd +f  +as + v++   ++lvq +++G   + fayGqtg+Gkt+tm 
+    1V8KA  31 RICVCVRKRPLNKQELAKKEIdVISVPSKCLLLVHEPKlkvdlTKYLENQAFCFDFAFDETASNEVVYRFTaRPLVQTIFEGGKATCFAYGQTGSGKTHTMG 132
+              6889***********99988778888676666666655645543445678*******************998****************************** PP
+
+  bioinfo 101 Gk.a.esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnkknlevredksrqlyveglteeavlsvddirdlldegkknrtvavtnlne 200
+              G  +  s+Gi   +  ++f   ++ +  nl+ e+ v+++eiyn ++ dLL++k +l+v ed+ +q+ v gl e  v+  dd+ +++++g   rt        
+    1V8KA 133 GDlQnASKGIYAMASRDVFLLKNQPRYRNLNLEVYVTFFEIYNGKVFDLLNKKAKLRVLEDSRQQVQVVGLQEYLVTCADDVIKMINMGSACRT-------- 226
+              *9535899************99999999**********************999************************************99986........ PP
+
+  bioinfo 201 assrshavlkielkgketdiaekkvgklnLvdLaGsesv...ninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgG.nsrtliviavsPseknesE 298
+              +ssrsha ++i l+ k      +  gk +LvdLaG e++   +inksL aL + i AL       ++R+sklt++L+ds  G nsrt +++ +sP   + + 
+    1V8KA 227 NSSRSHACFQILLRTKG-----RLHGKFSLVDLAGNERMegaEINKSLLALKECIRALG------QFRESKLTQVLRDSFIGeNSRTCMIAMISPGISSCEY 317
+              47***********9888.....99*************985556***************6......57************76649****************** PP
+
+  bioinfo 299 tkstLrfaerakt 311
+              t++tLr+a+r+k+
+    1V8KA 318 TLNTLRYADRVKE 330
+              ***********95 PP
+
+>> 1RY6A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  207.6   2.3   2.5e-64   1.9e-61       7     310 ..       2     318 ..       1     319 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 207.6 bits;  conditional E-value: 2.5e-64
+  bioinfo   7 ikvlvrvrPlnekeenrgsk.iikladedtvvllsid....kskegsk.sfsfdkvfsslasqkdvfedv.eelvqsaldGynvc.ifayGqtgaGktytme 100
+              ikv+vr rPl e e+++++  ii+++++ t+ + ++      +k  ++  f +dkvf  +     v+e+  ++l+ +  +   vc  fayGqtg+Gktytm 
+    1RY6A   2 IKVVVRKRPLSELEKKKKDSdIITVKNNCTLYIDEPRykvdMTKYIERhEFIVDKVFDDTVDNFTVYENTiKPLIIDLYENGCVCsCFAYGQTGSGKTYTML 103
+              9*************9988877**********9998876333334333359*****************9877*****99985555538*************** PP
+
+  bioinfo 101 Gka.....esvGiiprlvellfseirekanlnleyeikvsyleiynevlrdLLdnkknlevredksrqlyveglteeavlsvddirdlldegkknrtvavtn 197
+              G +     + +Gi + +  ++f  ++ ++++n    i +s+ eiy+ +l+dLL++k           ++ v++l  + vl  +++   +  g   r++ v  
+    1RY6A 104 GSQpygqsDTPGIFQYAAGDIFTFLNIYDKDN-TKGIFISFYEIYCGKLYDLLQKK-----------EVVVKDLKILRVLTKEELILKMIDGVLLRKIGVNS 193
+              9977888899*************999998855.568*****************766...........678999***********9999999*********** PP
+
+  bioinfo 198 lneassrshavlkielkgketdiaekkvgklnLvdLaGsesv...............ninksLsaLgnvisALaekdkhvpyRdskltrlLqdsLgGnsrtl 284
+               n++ssrsha+l+i lk+ +   ++++ gk+ ++dLaGse+                nin+sL aL + i A+ + ++h+p+Rds lt++L+d   G s+ +
+    1RY6A 194 QNDESSRSHAILNIDLKDIN---KNTSLGKIAFIDLAGSERGadtvsqnkqtqtdgaNINRSLLALKECIRAMDSDKNHIPFRDSELTKVLRDIFVGKSKSI 292
+              ******************99...77899************988899999888888888******************************************** PP
+
+  bioinfo 285 iviavsPseknesEtkstLrfaerak 310
+              +++++sP+  + + t++tLr++ r+k
+    1RY6A 293 MIANISPTISCCEQTLNTLRYSSRVK 318
+              *************************9 PP
+
+>> 2KINB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  135.2   0.1   2.8e-42   2.1e-39     239     312 .]       2      76 ..       1      76 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 135.2 bits;  conditional E-value: 2.8e-42
+  bioinfo 239 vninksLsaLgnvisALaekdk.hvpyRdskltrlLqdsLgGnsrtliviavsPseknesEtkstLrfaerakti 312
+               ninksLsaLgnvisALae++k hvpyRdsk+tr+LqdsL+Gn+rt+ivi++sPs +ne+EtkstL+f++rakti
+    2KINB   2 KNINKSLSALGNVISALAEGTKtHVPYRDSKMTRILQDSLDGNCRTTIVICCSPSVFNEAETKSTLMFGQRAKTI 76 
+              59******************999**************************************************98 PP
+
+>> 3KINB  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.9   0.1   4.7e-40   3.5e-37     242     312 .]       1      72 [.       1      72 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 127.9 bits;  conditional E-value: 4.7e-40
+  bioinfo 242 nksLsaLgnvisALaekdk.hvpyRdskltrlLqdsLgGnsrtliviavsPseknesEtkstLrfaerakti 312
+              nksLsaLgnvisALae++k hvpyRdsk+tr+LqdsLgGn+rt+ivi++sPs +ne+EtkstL+f++rakti
+    3KINB   1 NKSLSALGNVISALAEGTKtHVPYRDSKMTRILQDSLGGNCRTTIVICCSPSVFNEAETKSTLMFGQRAKTI 72 
+              8****************999**************************************************98 PP
+
+>> 1TU7A  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   0.00022      0.17     116     169 ..      66     120 ..      57     139 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00022
+  bioinfo 116 lfseirekanlnleyeikvsyleiynevlrdLLdnk.knlevredksrqlyvegl 169
+              ++ ++  k nln e e++ +y+++++e +rdL  +  + + +  ++++ +y++ +
+    1TU7A  66 ILRHLARKYNLNGENEMETTYIDMFCEGVRDLHVKYtRMIYMAYETEKDPYIKSI 120
+              66677888999********************985544567777899999999876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (312 nodes)
+Target sequences:                        12767  (2788951 residues searched)
+Passed MSV filter:                       264  (0.0206783); expected 255.3 (0.02)
+Passed bias filter:                      217  (0.0169969); expected 255.3 (0.02)
+Passed Vit filter:                        27  (0.00211483); expected 12.8 (0.001)
+Passed Fwd filter:                        17  (0.00133156); expected 0.1 (1e-05)
+Initial search space (Z):              12767  [actual number of targets]
+Domain search space  (domZ):              17  [number of targets reported over threshold]
+# CPU time: 0.13u 0.02s 00:00:00.15 Elapsed: 00:00:00.07
+# Mc/sec: 12430.75
+//
+[ok]
